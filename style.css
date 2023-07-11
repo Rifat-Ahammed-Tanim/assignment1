@@ -3,25 +3,56 @@
   display: flex;
   background-color: #e554731a;
 }
+
 .text-bold {
   font-size: 70px;
+  margin-left: 100px;
 }
 .paragrap {
   font-size: 18px;
   color: #27272799;
+  margin-left: 100px;
 }
 .btn {
   color: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
   background: #e55473;
   padding: 10px 30px;
-}
+  margin-left: 100px;
+  border: none;}
 .image {
+    height:500px;
+    width: 500px;
 
 }
 /* main */
-.section-2{
 
+.image-1{
+    background-color: #A7216226;
+    border-top-right-radius:100px ;
+    border-top-left-radius:100px ;
+    height: 350px;
+    width: 300px;
+}
+.image-2{
+    background-color: #0597A026;
+    border-top-right-radius:100px ;
+    border-top-left-radius:100px ;
+    height: 350px;
+    width: 300px;
+}
+.image-3{
+    background-color: #477D1126;
+    border-top-right-radius:100px ;
+    border-top-left-radius:100px ;
+    height: 350px;
+    width: 300px;
+}
+.image-flex{
+    height: 250px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top:100px;
 }
 .h3 {
   text-align: center;
@@ -41,17 +72,34 @@
 .section-3 {
   display: flex;
   justify-content: center;
+  gap:5px;
+}
+.text-center{
+  text-align: center;
 }
 .section-4 {
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
+  padding: 30px 0;
+  margin: 30px 120px;
+}
+.section-4 p{
+  padding: 10px 20px;
 }
 .section-5 {
   display: flex;
+  justify-content: center;
   border-radius: 8px;
+  align-items: center;
   background: rgba(229, 84, 115, 0.05);
+  padding: 50px 0;
+}
+.off{
+  color: #e55473;
 }
 .section-5-text{
     text-align: center;
@@ -68,4 +116,7 @@
     background-image:url(image/Rectangle\ 9.png);
     background-size: cover;
     background-position: center;
+}
+.section-8{
+    background-color: #272727;
 }
